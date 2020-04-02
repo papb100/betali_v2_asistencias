@@ -149,14 +149,16 @@ $fecha=date("Y-m-d");
                 <input type="hidden" class="form-control-file" name="clavePersona" id="clavePersona" >
                 <input type="hidden" class="form-control-file" name="tamanoKB" id="tamanoKB" value="3000">
                 <div class="col text-center">
-                <button type="button" onclick="importarArchivo();" class="btn btn-dark" style="margin-top:8px;">
-                    <i class="fas fa-check"></i> Subir Foto
+                <button type="button" onclick="importarArchivo();" class="btn btn-outline-dark" style="margin-top:8px;">
+                    <i class="fas fa-download"></i> Importar Tema
                 </button>
                 </div>
             </form>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-dark" data-dismiss="modal">
+                <i class="fas fa-times"></i> Cerrar
+            </button>
         </div>
         </div>
     </div>
